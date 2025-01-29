@@ -2,7 +2,7 @@
 
 export const resolvers = {
 
-    getTest:async():Promise<string> => {
+    getTest:():string => {
         const miVar:string = "Hello world"
         return miVar;
     }
