@@ -4,9 +4,5 @@ export const schema = `#graphql
         getTest:String!
     }
 
-    type Mutation {
-
-    }
-
 
 `
