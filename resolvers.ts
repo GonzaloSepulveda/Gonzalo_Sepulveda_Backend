@@ -1,9 +1,8 @@
 
-
 export const resolvers = {
-    getTest:():string => {
-        return "Hello world";
-    }
+    Query: {
+        getTest:(_:unknown): string => {
+            return "Hola"
+        }
+    },
 }
-
-

@@ -1,8 +1,5 @@
-export const schema = `#graphql
-
-    type Query {
-        getTest:String!
+export const schema =`#graphql   
+    type Query{
+        getTest: String!
     }
-
-
 `
